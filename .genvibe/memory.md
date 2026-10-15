@@ -1,5 +1,5 @@
 ## What this app is
-Parlo, a friendly messaging app (fictional brand) on Expo SDK 57 + Expo Router. Runs in Expo Go on iPhone and Android and in the web preview. Chats are local sample data: sending adds your message, then a typing indicator and a pretend reply (lib/replies.ts). No server, accounts or analytics.
+Chirpline, a friendly messaging app (fictional brand) on Expo SDK 57 + Expo Router. Runs in Expo Go on iPhone and Android and in the web preview. Chats are local sample data: sending adds your message, then a typing indicator and a pretend reply (lib/replies.ts). No server, accounts or analytics.
 
 ## Built so far
 - Chats (app/index.tsx): story row that folds into the title on scroll, search (names and message text), All/Unread/Groups chips, pinned and recent chats, unread badges, typing previews; long-press a chat to pin, mute or mark read/unread.
@@ -7,7 +7,7 @@ Parlo, a friendly messaging app (fictional brand) on Expo SDK 57 + Expo Router. 
 - Photo viewer (app/photo.tsx), story viewer (photo and text stories), Profile & settings (app/profile.tsx), New chat (app/new.tsx).
 
 ## Design
-Warm paper #F6F4F1, ink #1C1A18, Parlo tomato #D4422A (your bubbles, badges, send), story ring #F6A53B→#E2512E→#C8336B; dark mode bg #0F0E0D. System font. Bubbles radius 22 (8 where they join), cards 24, conversation panel 40, buttons are circles. Glass surfaces float over content; springs and enter animations in lib/motion.ts.
+Warm paper #F6F4F1, ink #1C1A18, Chirpline tomato #D4422A (your bubbles, badges, send), story ring #F6A53B→#E2512E→#C8336B; dark mode bg #0F0E0D. System font. Bubbles radius 22 (8 where they join), cards 24, conversation panel 40, buttons are circles. Glass surfaces float over content; springs and enter animations in lib/motion.ts.
 
 ## Structure
 - constants/content.ts: THE source of brand, palettes, people and portraits, photos, sample chats, stories, pretend replies and all copy.

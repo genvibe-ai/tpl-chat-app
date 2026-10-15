@@ -1,5 +1,5 @@
 /**
- * Parlo's design system, apart from colours (those live in content.ts).
+ * Chirpline's design system, apart from colours (those live in content.ts).
  * Actions are circles and pills; bubbles 22; cards 24; the conversation
  * panel 40. Every spacing value is a multiple of 4. System font throughout.
  */

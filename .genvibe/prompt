@@ -1,4 +1,4 @@
-This project started from the GenVibe Parlo chat-app template (Expo SDK 57, Expo Router; runs in Expo Go on iPhone and Android, and on the web). Read .genvibe/memory.md first.
+This project started from the GenVibe Chirpline chat-app template (Expo SDK 57, Expo Router; runs in Expo Go on iPhone and Android, and on the web). Read .genvibe/memory.md first.
 When the user describes their app, first update constants/content.ts: brand name, palettes, people and portraits, sample chats, stories, pretend replies and copy. Every screen reads from it.
 Keep the screens in app/ (Chats, chat/[id], photo, profile, new) and the shared pieces in components/ui; new screens go in app/ as Expo Router routes.
 Keep the platform fallbacks: *.ios.tsx files hold Liquid Glass (Glass, GlassGroup); the plain .tsx files are the web versions and *.android.tsx the Android ones. Icons go through components/ui/Icon.tsx with both an SF Symbol and a Material Symbol name.

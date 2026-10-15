@@ -1,4 +1,4 @@
-# Parlo
+# Chirpline
 
 A friendly messaging app for iPhone and Android, built with Expo SDK 57 and Expo Router. Stories fold into
 the title as you scroll; chats are pinned, searchable and filterable; conversations have photos, reactions,

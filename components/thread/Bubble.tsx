@@ -1,5 +1,5 @@
 /**
- * One message. Your bubbles are Parlo tomato, theirs are paper white.
+ * One message. Your bubbles are Chirpline tomato, theirs are paper white.
  * Bubbles from the same person join with tighter inner corners. Long-press
  * to react, double-tap for a quick ❤️, tap a photo to open it.
  */

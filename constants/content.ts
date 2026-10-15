@@ -1,5 +1,5 @@
 /**
- * Parlo: the brand, colours, people, sample chats, stories, automatic replies
+ * Chirpline: the brand, colours, people, sample chats, stories, automatic replies
  * and every line of copy live in this one file. Rebrand the app by editing the
  * values below; every screen reads from here.
  *
@@ -12,7 +12,7 @@ import type { ImageSourcePropType } from "react-native";
 /* ------------------------------------------------------------------ brand */
 
 export const brand = {
-  name: "Parlo",
+  name: "Chirpline",
   tagline: "Talk to your people.",
   version: "1.0",
   /** The round logo used for the app's own chat (assets/images/logo.png). */
@@ -34,7 +34,7 @@ export const palette = {
     pressed: "rgba(28, 26, 24, 0.05)",
     chip: "rgba(28, 26, 24, 0.06)",
     placeholder: "rgba(28, 26, 24, 0.42)",
-    accent: "#D4422A", // Parlo tomato: send, badges, rings, your bubbles
+    accent: "#D4422A", // Chirpline tomato: send, badges, rings, your bubbles
     onAccent: "#FFFFFF",
     accentText: "#B5341E", // accent-coloured words on the page ("typing…")
     accentSoft: "rgba(212, 66, 42, 0.11)",
@@ -181,14 +181,14 @@ export const people: Person[] = [
   { id: "priya", name: "Priya Nair", first: "Priya", tint: { bg: "#F7EDC9", fg: "#7A5C0E" }, about: "Book club host", lastSeen: "last seen recently" },
   { id: "iris", name: "Iris Calloway", first: "Iris", tint: { bg: "#F6DDE4", fg: "#8E2F4C" }, about: "Plants and pottery", lastSeen: "last seen recently" },
   // The app's own chat. Not listed in New chat.
-  { id: "parlo", name: "Parlo Team", first: "Parlo", avatar: brand.logo, about: "Tips and news", online: true },
+  { id: "chirpline", name: "Chirpline Team", first: "Chirpline", avatar: brand.logo, about: "Tips and news", online: true },
 ];
 
 /** People New chat suggests first. */
 export const suggested = ["mira", "rohan", "zara", "kenji"];
 
 /** Ids New chat never lists (the app's own chat). */
-export const hiddenContacts = ["parlo"];
+export const hiddenContacts = ["chirpline"];
 
 /* ------------------------------------------------------------------- chats */
 
@@ -301,14 +301,14 @@ export const chats: ChatSeed[] = [
     ],
   },
   {
-    id: "parlo",
-    people: ["parlo"],
+    id: "chirpline",
+    people: ["chirpline"],
     time: "Yesterday",
     messages: [
-      { id: "p1", from: "parlo", day: "Yesterday", time: "10:00 AM", text: "Welcome to Parlo 👋" },
-      { id: "p2", from: "parlo", day: "Yesterday", time: "10:00 AM", text: "Pull down on Chats to see who posted a story today." },
-      { id: "p3", from: "parlo", day: "Yesterday", time: "10:01 AM", text: "Long-press any message to react, or double-tap it for a quick ❤️" },
-      { id: "p4", from: "parlo", day: "Yesterday", time: "10:01 AM", text: "Messages here stay on your phone. Say hi to anyone and see what happens." },
+      { id: "p1", from: "chirpline", day: "Yesterday", time: "10:00 AM", text: "Welcome to Chirpline 👋" },
+      { id: "p2", from: "chirpline", day: "Yesterday", time: "10:00 AM", text: "Pull down on Chats to see who posted a story today." },
+      { id: "p3", from: "chirpline", day: "Yesterday", time: "10:01 AM", text: "Long-press any message to react, or double-tap it for a quick ❤️" },
+      { id: "p4", from: "chirpline", day: "Yesterday", time: "10:01 AM", text: "Messages here stay on your phone. Say hi to anyone and see what happens." },
     ],
   },
   {
@@ -395,7 +395,7 @@ export const storyDuration = 6000;
 /* ---------------------------------------------------------------- replies */
 
 /**
- * Parlo has no server: when you send a message, the other person "types" for
+ * Chirpline has no server: when you send a message, the other person "types" for
  * a moment and answers with one of these. Keyword replies win, then the
  * person's own lines (in order), then `anyone`.
  */
@@ -410,7 +410,7 @@ export const replies = {
     marcus: ["We'll see on Thursday 😉", "Stretch first!"],
     nia: ["Perfect, invite coming your way.", "Yes! Let's do it."],
     lucas: ["We'll see about that 🎾", "Loser buys coffee."],
-    parlo: ["Thanks for saying hi! Try a long-press on this message 😉", "Tip: tap + to share one of your recent photos."],
+    chirpline: ["Thanks for saying hi! Try a long-press on this message 😉", "Tip: tap + to share one of your recent photos."],
   } as Record<string, string[]>,
   anyone: ["Ha, okay. Give me a minute.", "Say more 👀", "That's exactly what I was thinking.", "Deal!", "Send me the details and I'm in."],
   keywords: [

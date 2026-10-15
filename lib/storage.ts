@@ -1,5 +1,5 @@
 /**
- * Where Parlo keeps your messages, reactions and settings: AsyncStorage
+ * Where Chirpline keeps your messages, reactions and settings: AsyncStorage
  * (native storage on iPhone and Android, localStorage on the web). Every call
  * is guarded, so a full disk or a private browser window never breaks a chat;
  * the app simply runs without saving.

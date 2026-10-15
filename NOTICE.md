@@ -1,11 +1,11 @@
 # Notice
 
-Parlo is based on [Liquid Glass Chat UI](https://github.com/Appllama/liquid-glass-chat-ui) by Appllama
+Chirpline is based on [Liquid Glass Chat UI](https://github.com/Appllama/liquid-glass-chat-ui) by Appllama
 (MIT License), © 2026 Appllama. The original license text is kept in [LICENSE-UPSTREAM](LICENSE-UPSTREAM).
 
 ## What changed
 
-- The two upstream cookbooks were merged into one app and rebranded as Parlo, with its own palette (warm paper
+- The two upstream cookbooks were merged into one app and rebranded as Chirpline, with its own palette (warm paper
   and tomato red, light and dark), app icon, splash and logo.
 - Kept and adapted from upstream: the story row that folds into the title, the story viewer, the floating
   composer with the send swap, the typing indicator, sample replies, search and filters, heart reactions,
@@ -29,11 +29,11 @@ Parlo is based on [Liquid Glass Chat UI](https://github.com/Appllama/liquid-glas
   (Apache License 2.0, bundled by `expo-symbols` through `@expo-google-fonts/material-symbols`).
 - Emoji are the device's own.
 - Images in `assets/avatars` and `assets/photos`: AI-generated for GenVibe.
-- The Parlo icon, splash and logo in `assets/images` were drawn for this template.
+- The Chirpline icon, splash and logo in `assets/images` were drawn for this template.
 
 ## Fictional content
 
-Parlo is a fictional brand. The people, their names, portraits, messages, stories, places and numbers are
+Chirpline is a fictional brand. The people, their names, portraits, messages, stories, places and numbers are
 fictional, and any resemblance to real people is a coincidence. Messages never leave the device; replies are
 generated locally from `constants/content.ts`.
 

@@ -149,7 +149,7 @@ export const useStore = create<State>()(
       };
     },
     {
-      name: "parlo-state",
+      name: "chirpline-state",
       version: 1,
       storage: createJSONStorage(() => safeStorage),
       partialize: ({ chats, storiesSeen, storiesLiked, status, settings }): Saved => ({

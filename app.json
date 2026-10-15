@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "Parlo",
-    "slug": "parlo",
-    "scheme": "parlo",
+    "name": "Chirpline",
+    "slug": "chirpline",
+    "scheme": "chirpline",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "automatic",
@@ -23,9 +23,9 @@
       "bundler": "metro",
       "output": "single",
       "favicon": "./assets/images/favicon.png",
-      "name": "Parlo",
-      "shortName": "Parlo",
-      "description": "Parlo is a friendly messaging app: stories, pinned chats, reactions and photos.",
+      "name": "Chirpline",
+      "shortName": "Chirpline",
+      "description": "Chirpline is a friendly messaging app: stories, pinned chats, reactions and photos.",
       "themeColor": "#D4422A",
       "backgroundColor": "#F6F4F1"
     },
