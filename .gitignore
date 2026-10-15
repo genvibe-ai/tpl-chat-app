@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Expo / React Native (native folders are generated at build time)
+.expo/
+.expo-shared/
+android/
+ios/
+dist/
+web-build/
+expo-env.d.ts
+.metro-health-check*
+
+# Signing material and local environment
+*.p8
+*.p12
+*.key
+*.jks
+*.keystore
+*.mobileprovision
+.env
+.env.*
+!.env.example
+
+# Template review screenshots and build scratch (not part of the app)
+_shots/
+_work/
+
+# Misc
+.DS_Store
+*.log
+*.tsbuildinfo
+coverage/
+.vscode/
+.idea/

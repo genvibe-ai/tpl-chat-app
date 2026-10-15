@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "Parlo",
+    "slug": "parlo",
+    "scheme": "parlo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "icon": "./assets/images/icon.png",
+    "ios": {
+      "supportsTablet": false,
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#D4422A"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/images/favicon.png",
+      "name": "Parlo",
+      "shortName": "Parlo",
+      "description": "Parlo is a friendly messaging app: stories, pinned chats, reactions and photos.",
+      "themeColor": "#D4422A",
+      "backgroundColor": "#F6F4F1"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 120,
+          "resizeMode": "contain",
+          "backgroundColor": "#F6F4F1",
+          "dark": {
+            "image": "./assets/images/splash-icon.png",
+            "backgroundColor": "#0F0E0D"
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
