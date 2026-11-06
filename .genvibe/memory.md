@@ -1,5 +1,5 @@
 ## What this app is
-Chirpline, a friendly messaging app (fictional brand) on Expo SDK 57 + Expo Router. Runs in Expo Go on iPhone and Android and in the web preview. Chats are local sample data: sending adds your message, then a typing indicator and a pretend reply (lib/replies.ts). No server, accounts or analytics.
+Chirpline, a friendly messaging app (fictional brand) on Expo SDK 58 + Expo Router. Runs in Expo Go on iPhone and Android and in the web preview. Chats are local sample data: sending adds your message, then a typing indicator and a pretend reply (lib/replies.ts). No server, accounts or analytics.
 
 ## Built so far
 - Chats (app/index.tsx): story row that folds into the title on scroll, search (names and message text), All/Unread/Groups chips, pinned and recent chats, unread badges, typing previews; long-press a chat to pin, mute or mark read/unread.

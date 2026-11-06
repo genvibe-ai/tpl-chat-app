@@ -43,7 +43,10 @@
             "backgroundColor": "#0F0E0D"
           }
         }
-      ]
+      ],
+      "expo-font",
+      "expo-image",
+      "expo-status-bar"
     ],
     "experiments": {
       "typedRoutes": true

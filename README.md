@@ -1,10 +1,10 @@
 # Chirpline
 
-A friendly messaging app for iPhone and Android, built with Expo SDK 57 and Expo Router. Stories fold into
+A friendly messaging app for iPhone and Android, built with Expo SDK 58 and Expo Router. Stories fold into
 the title as you scroll; chats are pinned, searchable and filterable; conversations have photos, reactions,
 read receipts and a typing indicator; your messages get a (pretend) reply.
 
-Runs in the Expo Go app (SDK 57) on iPhone and Android, and in the browser.
+Runs in the Expo Go app (SDK 58) on iPhone and Android, and in the browser.
 
 ```bash
 yarn install

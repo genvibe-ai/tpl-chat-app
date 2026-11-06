@@ -3,10 +3,27 @@
   "compilerOptions": {
     "strict": true,
     "paths": {
-      "@/*": ["./*"],
-      "@react-navigation/*": ["./node_modules/expo-router/build/react-navigation/*"]
-    }
+      "@/*": [
+        "./*"
+      ],
+      "@react-navigation/*": [
+        "./node_modules/expo-router/build/react-navigation/*"
+      ]
+    },
+    "customConditions": [
+      "react-native",
+      "react-native-legacy-deep-imports"
+    ]
   },
-  "include": ["**/*.ts", "**/*.tsx", ".expo/types/**/*.ts", "expo-env.d.ts"],
-  "exclude": ["node_modules", "_work", "dist"]
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "_work",
+    "dist"
+  ]
 }
